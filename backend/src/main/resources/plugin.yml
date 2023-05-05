@@ -1,0 +1,7 @@
+name: Blossom
+main: co.pvphub.blossom.backend.BlossomBackend
+version: 1.0
+authors:
+  - xyzaurora
+api-version: 1.17
+
