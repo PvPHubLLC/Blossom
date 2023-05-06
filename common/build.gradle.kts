@@ -3,6 +3,7 @@ plugins {
 }
 
 group = "co.pvphub.blossom"
+version = ""
 
 repositories {
     mavenCentral()
