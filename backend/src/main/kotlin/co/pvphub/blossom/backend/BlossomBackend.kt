@@ -13,7 +13,7 @@ import java.net.InetSocketAddress
 class BlossomBackend : JavaPlugin() {
 
     override fun onEnable() {
-        saveDefaultConfig()
+        // saveDefaultConfig()
         val manager = BlossomManager(
             // disabled until further discussionconfig.getString("token")!!
         )
