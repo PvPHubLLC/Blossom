@@ -50,7 +50,7 @@ tasks {
         dependsOn(shadowJar)
     }
     shadowJar {
-        archiveBaseName.set("blossom-proxy")
+        archiveBaseName.set("blossom-velocity")
         mergeServiceFiles()
     }
 }
