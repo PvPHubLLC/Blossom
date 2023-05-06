@@ -9,7 +9,7 @@ class BushClient(
     fun isIpBlacklisted(ip: String): Boolean {
         val res = post(URL + "ip").bodyJson(Ip(ip)).sendJson<IpInfo>(IpInfo::class.java)
         res?.let {
-            logger.info("${it.ip} has tried to join/ping the server but is blacklisted from the blossom security guard for \"${it.reason}\"")
+            // logger.info("${it.ip} has tried to join/ping the server but is blacklisted from the blossom security guard for \"${it.reason}\"")
             return true
         }
         return false
