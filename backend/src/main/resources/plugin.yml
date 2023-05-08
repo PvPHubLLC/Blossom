@@ -4,4 +4,4 @@ version: 1.0
 authors:
   - xyzaurora
 api-version: 1.17
-
+folia-supported: true
